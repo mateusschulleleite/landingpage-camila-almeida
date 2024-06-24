@@ -1,0 +1,30 @@
+.feedbacks {
+  padding: 50px 25px;
+}
+
+.feedbacks .title {
+    text-align: center;
+}
+
+.feedback-item {
+  color: #000000;
+  height: 100%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.feedback-item p {
+    font-family: "Roboto", sans-serif;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.feedback-item span {
+    font-family: "DM Serif Display", serif;
+    font-size: 1.6rem;
+    color: #b50001;
+}

@@ -1,0 +1,128 @@
+.home {
+    background-image: url('../images/mobile/home.png');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px 25px;
+    box-sizing: border-box;
+}
+
+.home .container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    backdrop-filter: blur(1.5px);
+}
+
+.home .container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    position: absolute;
+    top: 0;
+}
+
+.home .container p {
+    font-family: "DM Serif Display", serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 35px;
+    color: var(--color-third);
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.home .container span {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 20px;
+    color: var(--color-primary)
+}
+
+.home .container a {
+    color: var(--color-third);
+    font-family: "Roboto", sans-serif;
+    background: #b50001;
+    width: fit-content;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 1024px) {    
+    .home {
+        background-image: url('../images/home1.png');
+        padding: 100px 100px;
+    }
+    
+    .home .container {
+        backdrop-filter: blur(0);
+    }
+    
+    .home .container h1 {
+        font-size: 1.8rem;
+    }
+    
+    .home .container p {
+        font-size: 3rem;
+        margin-bottom: 40px;
+        line-height: 50px;
+        width: 60%;
+    }
+    
+    .home .container span {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .home {
+        background-image: url('../images/home1.png');
+        padding: 100px 100px;
+    }
+    
+    .home .container h1 {
+        font-size: 1.8rem;
+    }
+    
+    .home .container p {
+        font-size: 3.5rem;
+        margin-bottom: 40px;
+        width: 50%;
+    }
+    
+    .home .container span {
+        width: 60%;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .home {
+        background-image: url('../images/home1.png');
+        padding: 100px 100px;
+    }
+    
+    .home .container p {
+        font-size: 4rem;
+        line-height: 70px;
+        width: 70%;
+    }
+    
+    .home .container span {
+        font-size: 1.4rem;
+        line-height: 25px;
+    }
+
+    .home .container a {
+        font-size: 1.1rem;
+    }
+}

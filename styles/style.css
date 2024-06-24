@@ -1,0 +1,44 @@
+:root {
+  --color-primary: #8b0303;
+  --color-secondary: #de6c5a;
+  --color-third: #fff;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: "DM Serif Display", serif;
+  color: #b50001;
+  font-weight: 700;
+  font-size: 2.1rem;
+  margin-bottom: 30px;
+}
+
+.swiper {
+  width: 100%;
+  height: 200px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e7e7e7;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+
+@media (min-width: 1366px) {
+  .title {
+    font-size: 2.7rem;
+    margin-bottom: 60px;
+  }
+}
